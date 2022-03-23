@@ -296,17 +296,17 @@ header .navbar ul li a:hover{
   }
   
   .java {
-    animation: html 2s;
+    animation: java 2s;
     width: 75%;
   }
   
   .html {
-    animation: css 2s;
+    animation: html 2s;
     width: 60%;
   }
 
   .css {
-    animation: js 2s;
+    animation: css 2s;
     width: 45%;
   }
   .js {
