@@ -62,7 +62,7 @@ section{
 }
 
 .btn:hover{
-    background: rgb(39, 46, 48);
+    background: black;
 }
 
 .heading{
@@ -311,9 +311,17 @@ header .navbar ul li a:hover{
   }
   .js {
     animation: js 2s;
-    width: 25%;
+    width: 30%;
   }
 
+  @keyframes java {
+    from {
+      width: 0;
+    }
+    to {
+      width: 75%;
+    }
+  }
   
   
   @keyframes html {
@@ -321,7 +329,7 @@ header .navbar ul li a:hover{
       width: 0;
     }
     to {
-      width: 80%;
+      width: 60%;
     }
   }
   
@@ -330,9 +338,19 @@ header .navbar ul li a:hover{
       width: 0;
     }
     to {
-      width: 70%;
+      width: 45%;
     }
   }
+
+  @keyframes js {
+    from {
+      width: 0;
+    }
+    to {
+      width: 30%;
+    }
+  }
+  
   
  
 
@@ -495,5 +513,7 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin:3rem 0;
     }
+
+    
 
  }
