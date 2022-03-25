@@ -11,6 +11,9 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
 
+    <!--AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
 </head>
 <body>
     
@@ -115,6 +118,7 @@
 
 <section class="skills" id="skills">
     <h1 class="heading"> My&nbspSkills </h1>
+   
     <div class="skills-area">
         <div class="skill">
             <div class="skill-title">Java</div>
@@ -126,8 +130,8 @@
         <div class="skill">
             <div class="skill-title">HTML</div>
             <div class="skill-bar"></div>
-            <div class="html skill-fill">
-                <span class="skill-percent">60%</span>
+            <div class="html skill-fill" >
+                <span class="skill-percent" data-aos="linear">60%</span>
             </div>
         </div>
         
@@ -142,7 +146,7 @@
             <div class="skill-title">JS</div>
             <div class="skill-bar"></div>
             <div class="js skill-fill">
-                <span class="skill-percent">25%</span>
+                <span class="skill-percent">30%</span>
             </div>
         </div>
         
@@ -206,6 +210,11 @@
 
 <!-- custom js file link  -->
 <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
 
 </body>
